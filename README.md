@@ -1,5 +1,7 @@
 # SAP P2P Copilot
 
+[![tests](https://github.com/roopagager/sap-p2p-copilot/actions/workflows/tests.yml/badge.svg)](https://github.com/roopagager/sap-p2p-copilot/actions/workflows/tests.yml)
+
 An MCP server that lets an AI assistant investigate **SAP S/4HANA procure-to-pay invoice exceptions**
 safely, plus a small job that lands the same SAP data in a lakehouse for Databricks.
 
@@ -38,6 +40,23 @@ python -m sap_copilot.server           # MCP server on stdio
     "cwd": "/path/to/sap-p2p-copilot", "env": { "SAP_MODE": "fixture" } } } }
 ```
 Then ask: *"Why is invoice 5100000002 blocked, and can it be released?"*
+
+## Sample run
+```text
+$ python -m evals.run_evals
+e1  5100000001  MATCHED    PASS  
+e2  5100000002  EXCEPTION  PASS  4500000002/00010: Price variance: invoiced 1150.00 vs expected 1000.00 (+15.0%)
+e3  5100000003  EXCEPTION  PASS  4500000003/00010: Invoiced quantity 10 exceeds goods received 6
+e4  5100000004  EXCEPTION  PASS  Supplier is blocked for payment in the supplier master
+
+4/4 passed
+```
+And the action tool refusing an invoice that fails the match:
+```text
+request_payment_block_release(invoice="5100000003", fiscal_year="2026")
+→ {"status": "REFUSED", "reason": "Three-way match does not pass",
+   "issues": ["4500000003/00010: Invoiced quantity 10 exceeds goods received 6"]}
+```
 
 ## Tools
 | Tool | SAP API | Effect |
