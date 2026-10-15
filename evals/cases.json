@@ -1,0 +1,6 @@
+[
+  {"id": "e1", "invoice": "5100000001", "fy": "2026", "expect_status": "MATCHED", "expect_issue_contains": null},
+  {"id": "e2", "invoice": "5100000002", "fy": "2026", "expect_status": "EXCEPTION", "expect_issue_contains": "Price variance"},
+  {"id": "e3", "invoice": "5100000003", "fy": "2026", "expect_status": "EXCEPTION", "expect_issue_contains": "exceeds goods received"},
+  {"id": "e4", "invoice": "5100000004", "fy": "2026", "expect_status": "EXCEPTION", "expect_issue_contains": "blocked for payment"}
+]

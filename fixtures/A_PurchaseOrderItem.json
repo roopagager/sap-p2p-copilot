@@ -1,0 +1,46 @@
+{
+ "d": {
+  "results": [
+   {
+    "PurchaseOrder": "4500000001",
+    "PurchaseOrderItem": "00010",
+    "Material": "TG11",
+    "OrderQuantity": "10",
+    "PurchaseOrderQuantityUnit": "PC",
+    "NetPriceAmount": "100.00",
+    "NetPriceQuantity": "1",
+    "DocumentCurrency": "EUR"
+   },
+   {
+    "PurchaseOrder": "4500000002",
+    "PurchaseOrderItem": "00010",
+    "Material": "TG12",
+    "OrderQuantity": "10",
+    "PurchaseOrderQuantityUnit": "PC",
+    "NetPriceAmount": "100.00",
+    "NetPriceQuantity": "1",
+    "DocumentCurrency": "EUR"
+   },
+   {
+    "PurchaseOrder": "4500000003",
+    "PurchaseOrderItem": "00010",
+    "Material": "TG13",
+    "OrderQuantity": "10",
+    "PurchaseOrderQuantityUnit": "PC",
+    "NetPriceAmount": "50.00",
+    "NetPriceQuantity": "1",
+    "DocumentCurrency": "EUR"
+   },
+   {
+    "PurchaseOrder": "4500000004",
+    "PurchaseOrderItem": "00010",
+    "Material": "TG14",
+    "OrderQuantity": "4",
+    "PurchaseOrderQuantityUnit": "PC",
+    "NetPriceAmount": "50.00",
+    "NetPriceQuantity": "1",
+    "DocumentCurrency": "EUR"
+   }
+  ]
+ }
+}

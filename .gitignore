@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.venv/
+venv/
+audit*.jsonl
+approval_requests.jsonl
+lake/
+*.parquet

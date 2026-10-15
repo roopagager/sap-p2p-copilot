@@ -1,0 +1,46 @@
+{
+ "d": {
+  "results": [
+   {
+    "MaterialDocument": "5000000001",
+    "MaterialDocumentYear": "2026",
+    "MaterialDocumentItem": "1",
+    "PurchaseOrder": "4500000001",
+    "PurchaseOrderItem": "00010",
+    "GoodsMovementType": "101",
+    "QuantityInEntryUnit": "10",
+    "EntryUnit": "PC"
+   },
+   {
+    "MaterialDocument": "5000000002",
+    "MaterialDocumentYear": "2026",
+    "MaterialDocumentItem": "1",
+    "PurchaseOrder": "4500000002",
+    "PurchaseOrderItem": "00010",
+    "GoodsMovementType": "101",
+    "QuantityInEntryUnit": "10",
+    "EntryUnit": "PC"
+   },
+   {
+    "MaterialDocument": "5000000003",
+    "MaterialDocumentYear": "2026",
+    "MaterialDocumentItem": "1",
+    "PurchaseOrder": "4500000003",
+    "PurchaseOrderItem": "00010",
+    "GoodsMovementType": "101",
+    "QuantityInEntryUnit": "6",
+    "EntryUnit": "PC"
+   },
+   {
+    "MaterialDocument": "5000000004",
+    "MaterialDocumentYear": "2026",
+    "MaterialDocumentItem": "1",
+    "PurchaseOrder": "4500000004",
+    "PurchaseOrderItem": "00010",
+    "GoodsMovementType": "101",
+    "QuantityInEntryUnit": "4",
+    "EntryUnit": "PC"
+   }
+  ]
+ }
+}

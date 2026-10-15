@@ -1,0 +1,34 @@
+{
+ "d": {
+  "results": [
+   {
+    "PurchaseOrder": "4500000001",
+    "CompanyCode": "1010",
+    "Supplier": "17300001",
+    "DocumentCurrency": "EUR",
+    "PurchaseOrderDate": "/Date(1789430400000)/"
+   },
+   {
+    "PurchaseOrder": "4500000002",
+    "CompanyCode": "1010",
+    "Supplier": "17300001",
+    "DocumentCurrency": "EUR",
+    "PurchaseOrderDate": "/Date(1789430400000)/"
+   },
+   {
+    "PurchaseOrder": "4500000003",
+    "CompanyCode": "1010",
+    "Supplier": "17300002",
+    "DocumentCurrency": "EUR",
+    "PurchaseOrderDate": "/Date(1789430400000)/"
+   },
+   {
+    "PurchaseOrder": "4500000004",
+    "CompanyCode": "1010",
+    "Supplier": "17300003",
+    "DocumentCurrency": "EUR",
+    "PurchaseOrderDate": "/Date(1789430400000)/"
+   }
+  ]
+ }
+}

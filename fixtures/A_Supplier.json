@@ -1,0 +1,24 @@
+{
+ "d": {
+  "results": [
+   {
+    "Supplier": "17300001",
+    "SupplierName": "Domestic Supplier A",
+    "PostingIsBlocked": false,
+    "PaymentIsBlockedForSupplier": false
+   },
+   {
+    "Supplier": "17300002",
+    "SupplierName": "Domestic Supplier B",
+    "PostingIsBlocked": false,
+    "PaymentIsBlockedForSupplier": false
+   },
+   {
+    "Supplier": "17300003",
+    "SupplierName": "Blocked Supplier C",
+    "PostingIsBlocked": false,
+    "PaymentIsBlockedForSupplier": true
+   }
+  ]
+ }
+}

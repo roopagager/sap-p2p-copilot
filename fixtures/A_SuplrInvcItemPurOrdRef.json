@@ -1,0 +1,46 @@
+{
+ "d": {
+  "results": [
+   {
+    "SupplierInvoice": "5100000001",
+    "FiscalYear": "2026",
+    "SupplierInvoiceItem": "000001",
+    "PurchaseOrder": "4500000001",
+    "PurchaseOrderItem": "00010",
+    "SupplierInvoiceItemAmount": "1000.00",
+    "QuantityInPurchaseOrderUnit": "10",
+    "PurchaseOrderQuantityUnit": "PC"
+   },
+   {
+    "SupplierInvoice": "5100000002",
+    "FiscalYear": "2026",
+    "SupplierInvoiceItem": "000001",
+    "PurchaseOrder": "4500000002",
+    "PurchaseOrderItem": "00010",
+    "SupplierInvoiceItemAmount": "1150.00",
+    "QuantityInPurchaseOrderUnit": "10",
+    "PurchaseOrderQuantityUnit": "PC"
+   },
+   {
+    "SupplierInvoice": "5100000003",
+    "FiscalYear": "2026",
+    "SupplierInvoiceItem": "000001",
+    "PurchaseOrder": "4500000003",
+    "PurchaseOrderItem": "00010",
+    "SupplierInvoiceItemAmount": "500.00",
+    "QuantityInPurchaseOrderUnit": "10",
+    "PurchaseOrderQuantityUnit": "PC"
+   },
+   {
+    "SupplierInvoice": "5100000004",
+    "FiscalYear": "2026",
+    "SupplierInvoiceItem": "000001",
+    "PurchaseOrder": "4500000004",
+    "PurchaseOrderItem": "00010",
+    "SupplierInvoiceItemAmount": "200.00",
+    "QuantityInPurchaseOrderUnit": "4",
+    "PurchaseOrderQuantityUnit": "PC"
+   }
+  ]
+ }
+}
